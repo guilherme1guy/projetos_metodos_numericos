@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,21 @@
     <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.js" integrity="sha512-4aKxEISD4pbpzaB58OKEipeE+EyPiuftOmOapUUbPakIRWML5tK0u+FHZ22O/85EEgQjJNUOcldC/PcSDMWALQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.0/math.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
     <script src="index.js"></script>
 </head>
+
 <body style="background: #ccc">
     <div>
         <button type="button" class="btn btn-primary" onclick="clean()">Limpar</button>
     </div>
+
+    <div>
+        <p>Prediction: <strong>
+                <div id="prediction">null</div>
+            </strong></p>
+    </div>
 </body>
+
 </html>
